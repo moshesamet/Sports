@@ -5,7 +5,7 @@
 }
 .wd-expando h2 {
   border-bottom: 1px solid #e9e9e9;
-  font-size: .9em;
+  font-size: 2em;
   background: #f9f9f9;
   padding: 3px;
   margin: 0;
@@ -16,8 +16,9 @@
   list-style: none;
 }
 .wd-expando li {
+  font-size: 1.5em;
   padding: 3px;
-  margin: 0 0 0 .5em;
+  margin: 1em 0 0 .5em;
 }
 .wd-expando-on h2,
 .wd-expando-off h2 {
@@ -34,9 +35,11 @@
 
 body {
       direction: rtl;
+  	background-image: url("../Images/football2.jpg");
+          background-repeat:no-repeat;
+         background-size:cover;
 }
 
 #footer {
 	direction: ltr;
 }
-	
