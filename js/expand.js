@@ -23,6 +23,7 @@ for (var i = 0; i < expandos.length; i++) {
 }
 
 function toggleExpando () {
+    alert(this);
   var expando = this.parentNode;
   if (hasClass(expando, 'wd-expando-on')) {
     removeClass(expando, 'wd-expando-on');
