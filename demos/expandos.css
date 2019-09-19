@@ -22,8 +22,8 @@
 .wd-expando-on h2,
 .wd-expando-off h2 {
   cursor: pointer;
-  padding-left: 18px;
-  background: #f9f9f9 url(minus.png) no-repeat left center;
+  padding-right: 18px;
+  background: #f9f9f9 url(minus.png) no-repeat right center;
 }
 .wd-expando-off ol {
   display: none;
