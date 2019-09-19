@@ -18,13 +18,11 @@ var expandos = getElementsByClass('wd-expando');
 for (var i = 0; i < expandos.length; i++) {
   var expando = expandos[i];
   addClass(expando, 'wd-expando-on');
-    alert(expando);
   var header = expando.getElementsByTagName('h2')[0];
   addEventSimple(header, 'click', toggleExpando);
 }
 
 function toggleExpando () {
-    alert(this);
   var expando = this.parentNode;
   if (hasClass(expando, 'wd-expando-on')) {
     removeClass(expando, 'wd-expando-on');
